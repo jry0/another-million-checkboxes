@@ -2,6 +2,8 @@ I'm trying to recreate the viral [One Million Checkboxes game](https://github.co
 
 Goals:
 - [x] Follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+- [ ] Follow [some project structure] (https://github.com/zhanymkanov/fastapi-best-practices).
+- [ ] Track tasks / bugs using github issues.
 - [ ] Set up prototype with single user.
 - [ ] Deploy a live version.
 - [ ] Set up rate limiting.
