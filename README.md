@@ -1,7 +1,7 @@
 I'm trying to recreate the viral [One Million Checkboxes game](https://github.com/nolenroyalty/one-million-checkboxes) while following best practices using Python, FastAPI, and Poetry. 
 
 Goals:
-- [x] Follow [conventional commits](conventionalcommits.org).
+- [x] Follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 - [ ] Set up prototype with single user.
 - [ ] Deploy a live version.
 - [ ] Set up rate limiting.
