@@ -11,6 +11,9 @@ assignees: ''
 
 A clear and concise description of the task.
 
+**User Story (Optional)**
+An informal, general explanation of a software feature written from the perspective of the end user or customer.
+
 **Sub-Tasks**
 
 - [ ] Sub-task 1
