@@ -1,7 +1,7 @@
 ---
 name: Task
 about: General task or to-do item
-title: "[Task]: "
+title: "[Task] "
 labels: task
 assignees: ''
 
