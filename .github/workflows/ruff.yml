@@ -1,4 +1,4 @@
-name: CI-ruff
+name: ruff
 
 on:
   push:
