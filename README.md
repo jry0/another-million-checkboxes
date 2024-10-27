@@ -1,5 +1,10 @@
 I'm trying to recreate the viral [One Million Checkboxes game](https://github.com/nolenroyalty/one-million-checkboxes) while following best practices using Python, FastAPI, and Poetry. 
 
+## Code Quality
+
+I used [Ruff](https://github.com/charliermarsh/ruff) for linting to maintain code quality and consistency.
+
+
 Goals:
 - [x] Follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 - [ ] Follow [some project structure](https://github.com/zhanymkanov/fastapi-best-practices).

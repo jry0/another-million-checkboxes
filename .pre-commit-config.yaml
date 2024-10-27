@@ -1,0 +1,9 @@
+# .pre-commit-config.yaml
+
+repos:
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.7.1 # Replace with the latest Ruff version
+    hooks:
+      - id: ruff
+        args: ["--fix"]
+        stages: [pre-commit, pre-push]
