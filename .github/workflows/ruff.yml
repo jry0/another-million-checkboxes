@@ -1,18 +1,29 @@
-name: CI-ruff
-on: push
+name: Lint with Ruff
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
 jobs:
-  build:
+  ruff:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install Python
-        uses: actions/setup-python@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.12"
+          python-version: '3.12'  # Replace with your project's Python version
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install ruff
-      # Update output format to enable automatic inline annotations.
+          pip install poetry
+          poetry config virtualenvs.create false
+          poetry install --no-interaction --no-ansi
+
       - name: Run Ruff
-        run: ruff check --output-format=github .
+        run: |
+          ruff .
