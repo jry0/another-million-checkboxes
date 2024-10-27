@@ -18,12 +18,12 @@ pre-commit = "^4.0.1"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-### Ruff codestyle config ###
+### Ruff linter config
 [tool.ruff]
 line-length = 88
-select = ["E", "F", "W", "C", "N"]
-ignore = ["E203", "E266", "E501", "F403", "F401"]
-exclude = ["migrations", "venv", "tests"]
+lint.select = ["E", "F", "W", "C", "N"]
+lint.ignore = ["E203", "E266", "E501", "F403", "F401"]
+lint.exclude = ["migrations", "venv", "tests"]
 
 [tool.poetry.scripts]
 lint = "ruff ."
