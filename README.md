@@ -1,4 +1,4 @@
-One million shared and editable pixels utilizing Redis Cluster (to be replaced with homebrewed version eventually). 
+One million shared and editable pixels utilizing my personal key-value store. 
 Inspired by the viral [One Million Checkboxes game](https://github.com/nolenroyalty/one-million-checkboxes) and [r/place](https://en.wikipedia.org/wiki/R/place). 
 Made with Python / FastAPI. 
 
