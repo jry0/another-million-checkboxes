@@ -1,4 +1,5 @@
-I'm trying to recreate the viral [One Million Checkboxes game](https://github.com/nolenroyalty/one-million-checkboxes) while following best practices using Python, FastAPI, and Poetry. 
+Inspired by the viral [One Million Checkboxes game](https://github.com/nolenroyalty/one-million-checkboxes) and [r/place](https://en.wikipedia.org/wiki/R/place). 
+
 
 Goals:
 - [x] Follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
@@ -8,16 +9,14 @@ Goals:
 - [ ] Deploy a live version.
 - [ ] Set up rate limiting.
 - [ ] Because users of the original game have developed bots implement User Auth / anti-botting measures.
-- [ ] Scale to multiple millions of checkboxes.
+- [ ] Scale to multiple millions of pixels.
 - [ ] Set up logging.
 - [ ] Maintain consistency.
 - [ ] Testing (unit/integration).
 - [ ] Fault tolerance testing (chaos engineering).
 - [ ] Potentially recreate everything in Go as well.
-- [ ] Play around with UI development (coming from no experience)
-- [ ] Implement User Leaderboard.
-- [ ] Distributed Locking.
-- [ ] Event broadcasting.
+- [ ] Play around with UI development (coming from little experience)
+- [ ] Implement a User Leaderboard.
 - [ ] Documentation.
 - [ ] CI/CD.
 
