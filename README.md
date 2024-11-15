@@ -1,9 +1,12 @@
-One million shared and editable pixels utilizing my personal key-value store. 
+# Overview
+One million shared and editable RBG pixels utilizing my [personal key-value store](https://github.com/jry0/personal-kv-store).
+
 Inspired by the viral [One Million Checkboxes game](https://github.com/nolenroyalty/one-million-checkboxes) and [r/place](https://en.wikipedia.org/wiki/R/place). 
 Made with Python / FastAPI. Also, the classic [million-dollar-billboard](http://www.milliondollarhomepage.com/).
 
 
-Goals:
+
+## Goals:
 - Create simple backend using Redis as datastore, and test endpoints.
 - Create simple frontend to test user interactability.
 - Replace data store with [personal-kv-store](https://github.com/jry0/personal-kv-store).
@@ -22,29 +25,20 @@ Goals:
 
 ## Code Quality
 
-I used [Ruff](https://github.com/charliermarsh/ruff) for linting to maintain code quality and consistency.
+I used [Ruff](https://github.com/charliermarsh/ruff) for linting / formatting and [pre-commit](https://pre-commit.com/) git hooks for code consistency. 
 
-### Running Ruff Locally
+## Ruff CI
+For fun, I've also added a simple [Ruff CI workflow](https://github.com/jry0/shared-pixel-canvas/blob/main/.github/workflows/ruff.yml) for linting using GitHub Actions.
 
-To ensure consistency with the CI workflow, run Ruff locally before committing:
-
-```bash
-poetry run ruff .
-```
-## Continuous Integration
-
-I used [GitHub Actions](https://github.com/features/actions) to enforce code quality standards through automated linting with Ruff.
-
-### Linting Workflow
-
-The linting workflow runs Ruff on all pushes and pull requests to the `main` and `develop` branches.
-
-#### Workflow Configuration
-
-The workflow is defined in `.github/workflows/ruff.yml` and performs the following steps:
+The workflow runs ruff on all pushes and pull requests to the `main` and `develop` branches. It performs the following steps:
 
 1. **Checks out the code.**
 2. **Sets up Python.**
 3. **Installs dependencies using Poetry.**
 4. **Runs Ruff to lint the codebase.**
+
+
+
+
+
 
