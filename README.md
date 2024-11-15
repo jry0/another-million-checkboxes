@@ -1,26 +1,24 @@
 One million shared and editable pixels utilizing Redis Cluster (to be replaced with homebrewed version eventually). 
 Inspired by the viral [One Million Checkboxes game](https://github.com/nolenroyalty/one-million-checkboxes) and [r/place](https://en.wikipedia.org/wiki/R/place). 
-Made with Python / FastAPI. 
+Made with Python / FastAPI. Also, the classic [million-dollar-billboard](http://www.milliondollarhomepage.com/).
 
 
 Goals:
-- [x] Follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
-- [ ] Follow [some project structure](https://github.com/zhanymkanov/fastapi-best-practices).
-- [ ] Track tasks / bugs using github issues.
-- [ ] Set up prototype with single user.
-- [ ] Deploy a live version.
-- [ ] Set up rate limiting.
-- [ ] Because users of the original game have developed bots implement User Auth / anti-botting measures.
-- [ ] Scale to multiple millions of pixels.
-- [ ] Set up logging.
-- [ ] Maintain consistency.
-- [ ] Testing (unit/integration).
-- [ ] Fault tolerance testing (chaos engineering).
-- [ ] Potentially recreate everything in Go as well.
-- [ ] Play around with UI development (coming from little experience)
-- [ ] Implement a User Leaderboard.
-- [ ] Documentation.
-- [ ] CI/CD.
+- Create simple backend using Redis as datastore, and test endpoints.
+- Create simple frontend to test user interactability.
+- Replace data store with [personal-kv-store](https://github.com/jry0/personal-kv-store).
+- Follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+- Follow [some project structure](https://github.com/zhanymkanov/fastapi-best-practices).
+- Track tasks / bugs using github issues.
+- Deploy a live version.
+- Set up rate limiting.
+- Scale to multiple millions of pixels.
+- Set up logging.
+- Testing (unit/integration).
+- Potentially recreate everything in Go as well.
+- Play around with UI development (coming from little experience), re-implement using React.
+- Feat: Implement a User Leaderboard.
+- CI/CD.
 
 ## Code Quality
 
